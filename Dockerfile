@@ -1,6 +1,6 @@
 FROM centos:7
 
-RUN yum install ruby-devel gcc make rpm-build rubygems -y
+RUN yum install coreutils ruby-devel gcc make rpm-build rubygems -y
 
 RUN gem install --no-ri --no-rdoc fpm
 
